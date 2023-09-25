@@ -20,7 +20,7 @@ export class Carro {
 }
 
 //Teste
-
+const hb20 = new Carro(10);
 console.log(`Nivel de combustivel atual: ${hb20.obterNiveCombustivel()}`);
 console.log(`Abastecer: ${hb20.abastecer(20)}`);
 console.log(`Nivel de combustivel atual: ${hb20.obterNiveCombustivel()}`);
